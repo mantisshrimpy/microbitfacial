@@ -1,7 +1,7 @@
 set up and running. 
-this has works for me hopefully it works for you
 
-this is still in the works so there will probably be issues. 
+
+this is still in the works 
 
 1. flash the microbit script
 
