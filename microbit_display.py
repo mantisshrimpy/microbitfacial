@@ -1,11 +1,11 @@
 """
-Flash this onto microbit
+flash this onto microbit
 
-listens on the USB serial connection for a single character sent by
+listens on the usb serial connection for a single character sent by
 pc_smile_detector.py
-    s=  happy face
-    f= show a sad face
-    n= (or nothing detected)
+  s =  happy face
+  f= show a sad face
+  n= no face deteected
 """
 
 from microbit import *
@@ -18,9 +18,9 @@ happy = Image.HAPPY
 sad = Image.SAD
 neutral = Image(
     "00000:"
+    "09090:"
     "00000:"
     "99999:"
-    "00000:"
     "00000"
 )
 
