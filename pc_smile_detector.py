@@ -34,7 +34,7 @@ def find_microbit_port():
 
 PORT = find_microbit_port()
 if PORT is None:
-    print("Could not auto-detect micro:bit. Edit PORT in this script manually.")
+    print("Could not detect microbit. edit port in this script manually")
     PORT = "COM7"  # change if autodetect fail, had issues with this 
 
 BAUD = 115200
