@@ -5,13 +5,14 @@ ueses  webcam + openCV to detect a face and whether its smiling,
 then sends a single character over USB serial to a micro:bit, which
 lights up a happy or sad face
 
-for set up 
+for set up on
     pip install opencv python pyserial
-use:
-    1. flash microbit_display.py onto your micrbit first 
-    2. plug the micro:bit into USB.
+
+use
+    1 flash microbit_display.py onto  micrbit first 
+    2. plug the microbit into usb
     3. run : python pc_smile_detector.py
-    4. use q to exit the window 
+    4 q to exit the window 
 
 """
 
