@@ -2,7 +2,7 @@
 smile detector 
 
 ueses  webcam + openCV to detect a face and whether its smiling,
-then sends a single character over USB serial to a micro:bit, which
+then sends a single character over usb serial to a microbit, which
 lights up a happy or sad face
 
 for set up on
